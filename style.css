@@ -1,8 +1,46 @@
 /*
-Theme Name: Digital School
-Author: Milot Ymeri
-Description: The Digital School the , e is a modern, responsive, and user-friendly wordprees
+Theme Name: Digital School WP
+Author: Uvi
+Description:  The Digital School Blog Theme is a modern, responsive, and user-friendly WordPress theme designed specifically for showcasing educational content, updates, and student achievements from Digital School. Built with clean and minimal design principles, this theme ensures an engaging reading experience while keeping the focus on content.
 Version: 1.0
-Tags: Cool, school, PHP
-
+Tags: cool, blue, mobile ready, school, digital
 */
+
+body{
+    background: #C3E1EB;
+}
+
+.site-header{
+    background: #86bbf7;
+    padding: 15px 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.site-header .site-title{
+    color: #062064;
+    font-size: 15px;
+}
+
+.site-footer{
+    background: #86bbf7;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.site-footer p{
+    color: #062064;
+    font-size: 15px;
+}
+
+.site-footer .back-to-top{
+    text-decoration: none;
+    color: #062064;
+    font-size: 13px;
+}
+
+.site-footer .back-to-top{
+    color: #1E3C8C;
+    text-decoration: underline;
+}
