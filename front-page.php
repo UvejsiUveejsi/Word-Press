@@ -1,3 +1,5 @@
+<?php get_header(); ?>
+
 <main>
     <section class="hero">
         <img class="hero-banner"
