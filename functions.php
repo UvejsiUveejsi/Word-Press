@@ -13,14 +13,20 @@ function ds_menu(){
 
 add_action('after_setup_theme', 'ds_menu');
 
-add_action('wp_enqueue_scripts', function(){
-    if(is_page_template('aboutus.php')){
-        wp_enqueue_script(
-            'tailwing-play',
-            'https://cdn.tailwindcss.com'
-        );
-    }
-});
+// <<<<<<< HEAD
+// add_action('wp_enqueue_scripts', function(){
+//     if(is_page_template('aboutus.php')){
+//         wp_enqueue_script(
+// =======
+// add_action('wp_enqueue_script', function(){
+//     if(is_page_template('about-us')){
+//         wp_enqueue_scripts(
+// >>>>>>> dbe17b626a1d82634e1f9396880d34bceb8405fd
+//             'tailwing-play',
+//             'https://cdn.tailwindcss.com'
+//         );
+//     }
+// });
 
 
 ?>
